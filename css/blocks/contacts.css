@@ -1,0 +1,25 @@
+.contacts{
+
+}
+
+.contacts__tel{
+    font-size: 21px;
+    font-weight: bold;
+    font-style: normal;
+    
+    line-height: 2.57;
+    
+    /*text-align: left;*/
+    color: #ffffff;
+}
+
+.contacts__time{
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    
+    line-height: 3.86;
+    
+    /*text-align: left;*/
+    color: rgba(255, 255, 255, 0.7);
+}
