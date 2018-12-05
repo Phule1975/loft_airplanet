@@ -1,6 +1,5 @@
 .footer{
     background: #4b73b5;
-    border: 3px solid black;
 }
 
 .footer-text{
@@ -31,9 +30,17 @@
     
 }
 
-.back{
+.footer-social__icon-bg{
     width: 20px;
     height: 20px;
     background: #fff;
     border-radius: 50%;
+    position: relative;
+}
+
+.footer-social__icon-pic{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

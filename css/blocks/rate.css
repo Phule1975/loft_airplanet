@@ -1,0 +1,38 @@
+.rate{
+
+}
+
+.rate-name {
+   /*width: 180px;
+    height: 47px;*/
+    font-family: Roboto;
+    font-size: 49px;
+    font-weight: bold;
+    line-height: 0.78;
+    /*text-align: left;*/
+    color: #221f1f;
+}
+
+.rate-item{
+    width: 250px;
+    height: 456px;
+    border-radius: 5px;
+    background: #e8e9ed;
+    border: 1px solid red;
+}
+
+.rate-item__image{
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background: #4b73b5;
+    margin: 0 auto;
+    position: relative;
+}
+
+.rate-item__pic{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
