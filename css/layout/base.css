@@ -7,3 +7,7 @@ body {
     margin: 0 auto;
     min-height: 77px;
 }
+
+ul li{
+    list-style: none;
+}
