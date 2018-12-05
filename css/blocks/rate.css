@@ -21,6 +21,10 @@
     border: 1px solid #e8e9ed;
 }
 
+ul.rate-item__list li{
+    list-style: disc;
+}
+
 .rate-item__image{
     width: 68px;
     height: 68px;
