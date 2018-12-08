@@ -1,4 +1,4 @@
-.rate{
+.rate {
 
 }
 
@@ -13,7 +13,7 @@
     color: #221f1f;
 }
 
-.rate-item{
+.rate-item {
     width: 250px;
     height: 456px;
     border-radius: 5px;
@@ -21,11 +21,11 @@
     border: 1px solid #e8e9ed;
 }
 
-ul.rate-item__list li{
+ul.rate-item__list li {
     list-style: disc;
 }
 
-.rate-item__image{
+.rate-item__image {
     width: 68px;
     height: 68px;
     border-radius: 50%;
@@ -34,7 +34,7 @@ ul.rate-item__list li{
     position: relative;
 }
 
-.rate-item__pic{
+.rate-item__pic {
     position: absolute;
     top: 50%;
     left: 50%;

@@ -1,8 +1,8 @@
-.header{
+.header {
     background: #4b73b5;    
 }
 
-.header .container{
+.header .container {
     min-height: 77px;
     position: relative;
 }

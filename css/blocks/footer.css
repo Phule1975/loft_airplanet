@@ -1,36 +1,36 @@
-.footer{
+.footer {
     background: #4b73b5;
 }
 
-.footer-text{
+.footer-text {
 
 }
 
-.footer-logo{
+.footer-logo {
 
 }
 
-.footer-social{
+.footer-social {
 
 }
 
-.footer-social__text{
+.footer-social__text {
 
 }
 
-.footer-social__icons{
+.footer-social__icons {
 
 }
 
-.footer-social__icon{
+.footer-social__icon {
 
 }
 
-.footer-social__link{
+.footer-social__link {
     
 }
 
-.footer-social__icon-bg{
+.footer-social__icon-bg {
     width: 20px;
     height: 20px;
     background: #d2def3;
@@ -38,11 +38,11 @@
     position: relative;
 }
 
-.footer-social__icon-bg--activ{
+.footer-social__icon-bg--activ {
     background: #fff;
 }
 
-.footer-social__icon-pic{
+.footer-social__icon-pic {
     position: absolute;
     top: 50%;
     left: 50%;
