@@ -19,6 +19,7 @@
     border-radius: 5px;
     background: #fff;
     border: 1px solid #e8e9ed;
+    display: inline-block;
 }
 
 ul.rate-item__list li {
@@ -30,7 +31,8 @@ ul.rate-item__list li {
     height: 68px;
     border-radius: 50%;
     background: #4b73b5;
-    margin: 0 auto;
+    margin: 41px auto 32px;
+    ;
     position: relative;
 }
 

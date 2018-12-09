@@ -1,0 +1,29 @@
+/*.pagination {
+    display: inline-block;
+    text-align: center;
+    float: right;
+}
+
+
+}*/
+
+.pagination__display {
+    display: inline-block;
+}
+
+.pagination__item {
+    display: inline-block;
+    /*text-align: center;
+    width: 25px;
+    height: 25px;
+    background: coral;*/
+}
+
+.pagination__link {
+    display: inline-block;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    background: coral;
+}

@@ -1,8 +1,10 @@
 .header {
-    background: #4b73b5;    
+    color: #fff;
+    background: #4b73b5;
+    margin-bottom: 13px;    
 }
 
-.header .container {
-    min-height: 77px;
+.header__container {
+    height: 77px;
     position: relative;
 }

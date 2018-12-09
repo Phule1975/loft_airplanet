@@ -1,21 +1,38 @@
 .footer {
     background: #4b73b5;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer__container {
+    height: 77px;
+    position: relative;
 }
 
 .footer-text {
-
+    position: absolute;
+    top: 14px;
+    font-weight: 300;
+    width: 236px;
 }
 
 .footer-logo {
-
+    position: absolute;
+    top: 14px;
+    left: 500px;
+    width: 33%;
 }
 
 .footer-social {
-
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    width: 155px;;
 }
 
 .footer-social__text {
 
+    font-weight: bold;
 }
 
 .footer-social__icons {
@@ -23,7 +40,7 @@
 }
 
 .footer-social__icon {
-
+    display: inline-block;
 }
 
 .footer-social__link {
