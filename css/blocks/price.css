@@ -1,25 +1,26 @@
-.price-name {
-   /*width: 180px;
-    height: 47px;*/
-    font-family: Roboto;
-    font-size: 49px;
-    font-weight: bold;
-    line-height: 0.78;
-    /*text-align: left;*/
-    color: #221f1f;
+.price {
+    margin-bottom: 61px;
 }
 
 .price-item {
+    display: inline-block;
     width: 250px;
-    height: 456px;
+    /*height: 456px;*/
     border-radius: 5px;
     background: #fff;
-    border: 1px solid #e8e9ed;
-    display: inline-block;
+    border: 1px solid transparent;
+    vertical-align: top;
+    text-align: center;
+    padding: 40px 0;
+    margin-right: 20px;
 }
 
-ul.price-item__list li {
-    list-style: disc;
+.price-item:hover {
+    border: 1px solid #e8e9ed;
+}
+
+.price-item--activ {
+    border: 1px solid #e8e9ed;
 }
 
 .price-item__image {
@@ -27,8 +28,7 @@ ul.price-item__list li {
     height: 68px;
     border-radius: 50%;
     background: #4b73b5;
-    margin: 41px auto 32px;
-    ;
+    margin: 0 auto 31px;
     position: relative;
 }
 
@@ -37,4 +37,49 @@ ul.price-item__list li {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.price-item__block {
+    margin: 0 25px 35px;
+}
+
+.price-item__head {
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.price-item__text,
+.price-item__list {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.price-item__text {
+    margin-bottom: 28px;
+}
+
+.price-item__list {
+    text-align: left;
+    position: relative;
+}
+
+.price-item__list-item {
+    line-height: 30px;
+    margin-left: 25px;
+}
+
+.price-item__list-item::before{
+    content: "•";
+    position: absolute;
+    left: 0;
+}
+
+.price-item__cost {
+    font-size: 54px;
+}
+
+.price-item__cost-dollar {
+    font-size: 30px;
 }

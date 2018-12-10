@@ -11,7 +11,15 @@ body {
 .container {
     width: 1060px;
     margin: 0 auto;
-    background: gold;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
 }
 
 ul, h1, h2 {
