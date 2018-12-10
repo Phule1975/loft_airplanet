@@ -16,6 +16,12 @@
     width: 236px;
 }
 
+.footer-text__link {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #fff;
+}
+
 .footer-logo {
     position: absolute;
     top: 14px;
@@ -26,24 +32,20 @@
 .footer-social {
     position: absolute;
     top: 14px;
-    right: 20px;
-    width: 155px;
+    right: 0px;
+    width: 165px;
 }
 
 .footer-social__text {
-
+    text-align: right;
     font-weight: bold;
 }
 
-.footer-social__icons {
-
-}
 
 .footer-social__icon {
     display: inline-block;
-}
-
-.footer-social__link {
+    margin-top: 10px;
+    margin-left: 10px;
     
 }
 

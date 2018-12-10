@@ -18,3 +18,51 @@
     color: #221f1f;
     margin-bottom: 27px;
 }
+
+.content-list-item {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #f5f5f5;
+}
+
+.content-list-item:last-child {
+    margin-bottom: 0;
+    padding-botom: 0;
+    border-bottom: none;
+}
+
+.content-list-item__image {
+    width: 160px;
+    display: inline-block;
+    
+}
+.content-list-item__pic {
+    border-radius: 50%;
+}
+
+.content-list-item__section {
+    width: 655px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content-list-item__section-data {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    color: #656464;    
+}
+
+.content-list-item__section-head {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+    color: #221f1f;    
+}
+
+.content-list-item__section-text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #221f1f;    
+}
