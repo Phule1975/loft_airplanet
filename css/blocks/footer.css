@@ -27,7 +27,7 @@
     position: absolute;
     top: 14px;
     right: 20px;
-    width: 155px;;
+    width: 155px;
 }
 
 .footer-social__text {
@@ -53,6 +53,10 @@
     background: #d2def3;
     border-radius: 50%;
     position: relative;
+}
+
+.footer-social__icon-bg:hover {
+    background: #fff;
 }
 
 .footer-social__icon-bg--activ {

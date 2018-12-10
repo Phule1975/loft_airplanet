@@ -1,8 +1,4 @@
-.rate {
-
-}
-
-.rate-name {
+.price-name {
    /*width: 180px;
     height: 47px;*/
     font-family: Roboto;
@@ -13,7 +9,7 @@
     color: #221f1f;
 }
 
-.rate-item {
+.price-item {
     width: 250px;
     height: 456px;
     border-radius: 5px;
@@ -22,11 +18,11 @@
     display: inline-block;
 }
 
-ul.rate-item__list li {
+ul.price-item__list li {
     list-style: disc;
 }
 
-.rate-item__image {
+.price-item__image {
     width: 68px;
     height: 68px;
     border-radius: 50%;
@@ -36,7 +32,7 @@ ul.rate-item__list li {
     position: relative;
 }
 
-.rate-item__pic {
+.price-item__pic {
     position: absolute;
     top: 50%;
     left: 50%;

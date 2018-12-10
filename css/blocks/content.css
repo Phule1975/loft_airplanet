@@ -1,5 +1,19 @@
 .content {
     display: inline-block;
     width: 881px;
-    background: green;
+}
+
+.content-banner {
+    margin-bottom: 16px;
+}
+
+.content-banner__image {
+    width: 901px;
+    overflow: hidden;
+}
+
+.content-title {
+    font-size: 49px;
+    font-weight: bold;
+    color: #221f1f;
 }

@@ -1,29 +1,40 @@
-/*.pagination {
-    display: inline-block;
+.pagination {
     text-align: center;
-    float: right;
+    margin-bottom: 64px;
+    font-size: 14px;
+    line-height: 25px;
 }
 
-
-}*/
-
 .pagination__display {
+    display: inline-block;
+    font-weight: 300;
+    color: #656464;  
+}
+
+.pagination__elem {
     display: inline-block;
 }
 
 .pagination__item {
     display: inline-block;
-    /*text-align: center;
-    width: 25px;
-    height: 25px;
-    background: coral;*/
 }
 
 .pagination__link {
     display: inline-block;
-    text-align: center;
+    font-weight: bold;
+    color: #221f1f;
     width: 25px;
     height: 25px;
     border-radius: 3px;
-    background: coral;
+    
+}
+
+.pagination__link--activ {
+    color: #fff;
+    background: #4b73b5;
+}
+
+.pagination__link:hover {
+    color: #fff;
+    background: #4b73b5;
 }

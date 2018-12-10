@@ -1,0 +1,6 @@
+.news-item__image {
+    display: inline-block;
+}
+.news-item__pic {
+    border-radius: 50%;
+}
