@@ -9,11 +9,9 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    /*position: relative;*/
 }
 
 .footer-text {
-    /*position: absolute;*/
     top: 14px;
     font-weight: 300;
     width: 236px;
@@ -26,14 +24,12 @@
 }
 
 .footer-logo {
-    /*position: absolute;*/
     top: 14px;
     left: 500px;
     width: 33%;
 }
 
 .footer-social {
-    /*position: absolute;*/
     top: 14px;
     right: 0px;
     width: 165px;
