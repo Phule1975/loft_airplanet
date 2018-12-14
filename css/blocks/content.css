@@ -18,25 +18,39 @@
     margin-bottom: 27px;
 }
 
+.content-list-list {
+    display: flex;
+    flex-flow: column;
+}
+
 .content-list-item {
+    display: flex;
     margin-bottom: 30px;
     padding-bottom: 30px;
     border-bottom: 2px solid #f5f5f5;
 }
 
 .content-list-item:last-child {
-    margin-bottom: 0;
+    margin-bottom: 30px;
     padding-bottom: 0;
     border-bottom: none;
 }
 
 .content-list-item__image {
     width: 160px;
-    display: inline-block;
+    height: 160px;
+    border-radius: 50%;
+    /*overflow: hidden;*/
+    border: 1px solid red;
+    
+    display: flex;
     
 }
 .content-list-item__pic {
-    border-radius: 50%;
+    /*border-radius: 50%;*/
+    margin: auto auto;
+    width: 100%;
+    height: 100%;
 }
 
 .content-list-item__section {
