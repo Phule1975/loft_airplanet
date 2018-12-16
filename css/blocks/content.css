@@ -17,6 +17,7 @@
 .content-list-list {
     display: flex;
     flex-flow: column;
+    margin-top: 58px;
     margin-bottom: 30px;
 }
 

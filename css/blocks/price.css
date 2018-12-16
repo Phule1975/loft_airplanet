@@ -1,5 +1,5 @@
 .price {
-    margin-bottom: 61px;
+    margin-bottom: 34px;
 }
 
 .price-list {
@@ -42,7 +42,7 @@
 }
 
 .price-item__block {
-    margin: 0 25px 35px;
+    margin: 0 25px 21px;
 }
 
 .price-item__head {
@@ -61,7 +61,7 @@
 }
 
 .price-item__text {
-    margin-bottom: 28px;
+    margin-bottom: 15px;
 }
 
 .price-item__list {
