@@ -2,7 +2,6 @@
     display: flex;
 }
 .page-sidebar {
-    /*float: left;*/
-    width: 179px;
-    padding-top: 30px;
+    width: 17%;
+    margin-top: 13px;
 }

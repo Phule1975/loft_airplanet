@@ -1,13 +1,10 @@
-.menu__item {
-    margin-bottom: 25px;
-}
-
 .menu__link {
     font-size: 12px;
     font-weight: bold;
     color: #4b73b5;
     text-transform: uppercase;
     letter-spacing: 0.2em;
+    line-height: 4.3;
 }
 
 .menu__link:hover{
@@ -20,7 +17,7 @@
     vertical-align: middle;
     width: 23px;
     height: 18px;
-    margin-right: 19px;
+    margin-right: 16px;
     background: center center no-repeat;
 }
 
@@ -54,4 +51,12 @@
 
 .menu__item--activ .menu__link--main::before {
     background-image: url(/img/main-activ.png);
+}
+
+.menu__item--activ .menu__link--feed::before {
+    background-image: url(/img/feed-activ.png);
+}
+
+.menu__item--activ .menu__link--team::before {
+    background-image: url(/img/team-activ.png);
 }
