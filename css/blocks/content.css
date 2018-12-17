@@ -75,3 +75,26 @@
     line-height: 30px;
     color: #221f1f;    
 }
+
+.blockquote {
+    background-color: #4bb56b;
+    background-image: url(/img/pattern.png);
+    margin-bottom: 60px;
+     
+}
+
+.blockquote__content {
+    max-width: 700px;
+    padding: 50px 30px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+.blockquote__content a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
