@@ -1,6 +1,7 @@
 @import url(/css/layout/normalize.css);
 @import url(/css/layout/base.css);
 
+@import url(/css/blocks/intro.css);
 @import url(/css/blocks/header.css);
 @import url(/css/blocks/logo.css);
 @import url(/css/blocks/contacts.css);

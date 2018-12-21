@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
 }
+html, 
+body {
+    height: 100%;
+}
+
 body {
     font-family: 'roboto', Helvetica, sans-serif;
     margin: 0;
@@ -36,16 +41,4 @@ ul li {
 
 a {
     text-decoration: none;
-}
-
-.wrap-m {
- min-width: 500px;
- min-height: 500px;
-}
-
-.bg-image {
-    position: absolute;
-    top: 100px;
-    left: 100px;
-    z-index: 2;
 }
