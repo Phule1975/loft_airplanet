@@ -4,7 +4,9 @@
     color: #4b73b5;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    line-height: 4.3;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
 .menu__link:hover{

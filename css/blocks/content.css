@@ -7,6 +7,10 @@
     overflow: hidden;
 }
 
+.content-list {
+    margin-bottom: 30px;
+}
+
 .content-title {
     font-size: 49px;
     font-weight: bold;
@@ -14,11 +18,13 @@
     margin-bottom: 15px;
 }
 
+.content-list__title {
+    margin-bottom: 60px;
+}
+
 .content-list-list {
     display: flex;
     flex-flow: column;
-    margin-top: 58px;
-    margin-bottom: 30px;
 }
 
 .content-list-item {
