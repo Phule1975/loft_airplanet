@@ -1,0 +1,62 @@
+.menu__link {
+    font-size: 12px;
+    font-weight: bold;
+    color: #4b73b5;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    line-height: 4.3;
+}
+
+.menu__link:hover{
+    color: #221f1f;
+}
+
+.menu__link:before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 23px;
+    height: 18px;
+    margin-right: 16px;
+    background: center center no-repeat;
+}
+
+.menu__item--activ .menu__link {
+    color: #221f1f;
+}
+
+.menu__link--main::before {
+    background-image: url(/img/main.png);
+}
+
+.menu__link--main:hover::before {
+    background-image: url(/img/main-activ.png);
+}
+
+.menu__link--feed::before {
+    background-image: url(/img/feed.png);
+}
+
+.menu__link--feed:hover::before {
+    background-image: url(/img/feed-activ.png);
+}
+
+.menu__link--team::before {
+    background-image: url(/img/team.png);
+}
+
+.menu__link--team:hover::before {
+    background-image: url(/img/team-activ.png);
+}
+
+.menu__item--activ .menu__link--main::before {
+    background-image: url(/img/main-activ.png);
+}
+
+.menu__item--activ .menu__link--feed::before {
+    background-image: url(/img/feed-activ.png);
+}
+
+.menu__item--activ .menu__link--team::before {
+    background-image: url(/img/team-activ.png);
+}

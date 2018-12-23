@@ -1,0 +1,26 @@
+.breadcrumbs__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.breadcrumbs__item::after {
+    content: " /"
+}
+
+
+.breadcrumbs__item-link {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    color: rgba(28, 91, 195, 0.8);
+}
+
+.breadcrumbs__item--activ .breadcrumbs__item-link {
+    color: rgba(34, 31, 31, 0.8);
+}
+
+.breadcrumbs__item--activ::after {
+    display: none;
+}

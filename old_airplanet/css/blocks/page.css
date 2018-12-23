@@ -1,0 +1,7 @@
+.page__container {
+    display: flex;
+}
+.page-sidebar {
+    width: 17%;
+    margin-top: 13px;
+}
