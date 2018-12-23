@@ -19,6 +19,15 @@
     display: inline-block;
     vertical-align: middle;
     color: #656464;
+    font-size: 25px;
+}
+
+.pagination-btn--prev {
+    margin-right: 15px;
+}
+
+.pagination-btn--next {
+    margin-left: 15px;
 }
 
 .pagination-btn--activ {

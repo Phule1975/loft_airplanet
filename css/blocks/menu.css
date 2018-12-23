@@ -21,6 +21,8 @@
     height: 18px;
     margin-right: 16px;
     background: center center no-repeat;
+    /*-------*/
+    background-image: url(/img/spritesheet.png)
 }
 
 .menu__item--activ .menu__link {
@@ -28,37 +30,64 @@
 }
 
 .menu__link--main::before {
-    background-image: url(/img/main.png);
+    width: 17px;
+    height: 18px;
+    background-position: -142px -8px;
+    /*background-image: url(/img/main.png);*/
 }
 
 .menu__link--main:hover::before {
-    background-image: url(/img/main-activ.png);
+    width: 17px;
+    height: 18px;
+    background-position: -175px -8px;
+    /*background-image: url(/img/main-activ.png);*/
 }
 
 .menu__link--feed::before {
-    background-image: url(/img/feed.png);
+    width: 20px;
+    height: 18px;
+    background-position: -8px -8px;
+    /*background-image: url(/img/feed.png);*/
 }
 
 .menu__link--feed:hover::before {
-    background-image: url(/img/feed-activ.png);
+    width: 20px;
+    height: 18px;
+    background-position: -44px -8px;
+    /*background-image: url(/img/feed-activ.png);*/
 }
 
 .menu__link--team::before {
-    background-image: url(/img/team.png);
+    width: 23px;
+    height: 18px;
+    background-position: -208px -8px;
+    /*background-image: url(/img/team.png);*/
 }
 
 .menu__link--team:hover::before {
-    background-image: url(/img/team-activ.png);
+    width: 23px;
+    height: 18px;
+    background-position: -247px -8px;
+    /*background-image: url(/img/team-activ.png);*/
 }
 
 .menu__item--activ .menu__link--main::before {
-    background-image: url(/img/main-activ.png);
+    width: 17px;
+    height: 18px;
+    background-position: -175px -8px;
+    /*background-image: url(/img/main-activ.png);*/
 }
 
 .menu__item--activ .menu__link--feed::before {
-    background-image: url(/img/feed-activ.png);
+    width: 20px;
+    height: 18px;
+    background-position: -44px -8px;
+    /*background-image: url(/img/feed-activ.png);*/
 }
 
 .menu__item--activ .menu__link--team::before {
-    background-image: url(/img/team-activ.png);
+    width: 23px;
+    height: 18px;
+    background-position: -247px -8px;
+    /*background-image: url(/img/team-activ.png);*/
 }

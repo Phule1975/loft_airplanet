@@ -13,5 +13,6 @@
 .contacts__time {
     font-size: 14px;
     text-decoration: underline;
+    font-weight: bold;
     color: rgba(255, 255, 255, 0.7);
 }
