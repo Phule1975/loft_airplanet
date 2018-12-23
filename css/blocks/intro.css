@@ -36,12 +36,25 @@
 
 }
 
+.welcome__logo-btn::after{
+    content: "";
+    margin-left: 9px;
+    background: center center no-repeat;
+    /*-------*/
+    width: 15px;
+    height: 14px;
+    background-position: -80px -8px;
+    background-image: url(/img/spritesheet.png)
+}
+
 .welcome__logo-btn:hover {
     background: #1c5bc3;
     color: #fff;
 }
 
-.welcome__logo-btn-ico {
-    margin-left: 9px;
-}
+.welcome__logo-btn:hover::after {
+    background-position: -111px -8px;
+} 
+
+
 
