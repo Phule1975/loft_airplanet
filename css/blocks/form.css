@@ -152,21 +152,28 @@
     line-height: 46px;
     cursor: pointer;
     transition: .5s;
+    
+
 }
 
 .button::after {
     content: '';
     display: inline-block;
     vertical-align: middle;
-    width: 15px;
-    height: 15px;
     margin-left: 11px;
     background: center center no-repeat;
-    background-image: url(/img/main.png);    
+    width: 15px;
+    height: 14px;
+    background-position: -111px -8px;
+    background-image: url(/img/spritesheet.png);
 }
 
 .button:hover {
-    background-color: #fff;
+    background-color: transparent;
     color: #1c5bc3;
     border: 1px solid #1c5bc3;
+}
+
+.button:hover::after {
+    background-position: -80px -8px;
 }
