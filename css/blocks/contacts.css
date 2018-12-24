@@ -3,7 +3,7 @@
     text-align: right;
 }
 
-*.contacts__tel {
+.contacts__tel {
     font-size: 21px;
     font-weight: bold;
     text-decoration: none;

@@ -20,6 +20,11 @@
     margin-right: 20px;
 }
 
+.price-item--new{
+    width: 270px;
+    margin-bottom: 30px;
+}
+
 .price-item:hover {
     border: 1px solid #e8e9ed;
 }
