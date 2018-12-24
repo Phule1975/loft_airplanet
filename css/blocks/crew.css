@@ -5,6 +5,10 @@
     align-items: flex-start;
 }
 
+.crew__list--new {
+    
+}
+
 .crew__item {
     display: flex;
     flex-direction: column;
@@ -15,7 +19,10 @@
     line-height: 21px;
     margin-bottom: 45px;
     padding: 0 10px;
+    
 }
+
+
 .crew__img-wrap {
     position: relative;
     width: 160px;
@@ -24,6 +31,7 @@
     overflow: hidden;
     margin-bottom: 17px;
     flex-shrink: 0;
+    border: 3px solid #4b73b5;
 }
 
 .crew__img-wrap::before {

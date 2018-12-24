@@ -23,18 +23,16 @@
     color: #fff;
 }
 
-.footer-logo {
-/*    margin: auto;*/
-    
-}
 
 .footer-social {
-    /*width: 165px;*/
-    text-align: left;
+    /*width: 165px;
+    text-align: left;*/
+    text-align: center;
+    margin-right: 20px;
 }
 
 .footer-social__text {
-    text-align: right;
+    text-align: center;
     font-weight: bold;
     margin-bottom: 5px;
     font-size: 14px;
@@ -57,7 +55,7 @@
 .footer-social__icon-bg {
     width: 20px;
     height: 20px;
-    background: #d2def3;
+    background: transparent;
     border-radius: 50%;
     position: relative;
 }

@@ -2,6 +2,7 @@
     display: flex;
 }
 .page-sidebar {
-    width: 17%;
-    margin-top: 35px;
+    width: 25%;
+    /*width: 17%;
+    margin-top: 35px;*/
 }

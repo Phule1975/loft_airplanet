@@ -1,11 +1,14 @@
 .partner__list {
     display: flex;
     flex-wrap: wrap;
-    /*flex-direction: column;*/
+    flex-direction: column;
+    border: 1px solid #e8e9ed;
+    margin-right: 20px;
 }
 .partner__item {
-    width: 33.3%;
+    width: 100%;
     margin-bottom: 50px;
+    
 }
 
 .partner__item-link {

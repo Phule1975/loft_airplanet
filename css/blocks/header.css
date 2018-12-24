@@ -4,6 +4,10 @@
     margin-bottom: 13px;    
 }
 
+.header--new {
+    margin-bottom: 24px;
+}
+
 .header__container {
     min-height: 77px;
     display: flex;
