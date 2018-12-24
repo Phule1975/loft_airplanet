@@ -1,6 +1,8 @@
 .contacts {
     font-style: normal;
     text-align: right;
+    
+    
 }
 
 .contacts__tel {
@@ -9,10 +11,48 @@
     text-decoration: none;
     color: inherit;
 }
+    
 
 .contacts__time {
     font-size: 14px;
     text-decoration: underline;
     font-weight: bold;
     color: rgba(255, 255, 255, 0.7);
+    position: relative;   
+}
+
+
+
+.schedule {
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    top: 10%;
+    width: 130px;
+    right: 0;
+    padding: 18px 11px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 3px 3px 5px 3px rgba(203, 210, 224255, 0.5);
+    color: black;
+    text-align: left;
+
+}
+
+.schedule:hover {
+    right: 0;
+}
+
+.schedule::after {
+    content: "";
+    display: block;
+    background: black;
+    position : absolute;
+    height: 20px;
+    width: 100%;
+    bottom: 100%;
+    right: 0;
+    
+
+
 }
