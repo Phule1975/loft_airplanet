@@ -1,0 +1,87 @@
+/* schedule */
+
+.schedule {
+  text-align: end;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 2px;
+  margin-right: 2px;
+  transition: all .3s;
+}
+
+.schedule:hover {
+  color: #769dcd;
+  cursor: pointer;
+}
+
+.schedule__block {
+  display: flex;
+  visibility: hidden;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-left: 11px;
+  line-height: 18px;
+  top: calc(100% + 11px);
+  right: 2px;
+  font-size: 14px;
+  position: absolute;
+  width: 164px;
+  height: 0;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 2.5px 4.3px 5px 0 rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: all .3s;
+}
+
+.schedule__block::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -9px;
+  right: 10px;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 10px solid #fff;
+}
+
+.schedule__block::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 30px;
+  bottom: 100%;
+  left: 0;
+  position: absolute;
+}
+
+.schedule:hover + .schedule__block {
+  visibility: visible;
+  opacity: 1;
+  height: 81px;
+}
+
+.schedule__block:hover {
+  visibility: visible;
+  opacity: 1;
+  height: 81px;
+  cursor: default
+}
+
+.schedule__workdays {
+  color: #1c5bc3;
+  font-weight: bold;
+  font-size: 14px;
+  
+}
+
+.schedule__lunch {
+  color: #221f1f;
+  font-weight: 100;
+  font-size: 14px;
+  
+}
